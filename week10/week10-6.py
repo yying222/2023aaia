@@ -1,0 +1,1 @@
+class Solution:    def average(self, salary: List[int]) -> float:        #print(sum(salary))        #Τ炒ɡ祘Α临ぃ癸糶2︽单穦タ        total = sum(salary)-max(salary)-min(salary) #羆-程-程        N = len(salary)-2 #Ι奔程程计ヘΙ奔2        return total / N        #return (sum(salary)-max(salary)-min(salary))/(len(salary)-2)
